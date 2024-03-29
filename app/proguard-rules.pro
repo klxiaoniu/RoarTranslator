@@ -1,0 +1,1 @@
+-keep class tk.dreamydragon.roartranslater.* {*;}

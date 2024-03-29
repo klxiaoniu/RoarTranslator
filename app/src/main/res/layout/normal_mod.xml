@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <EditText android:gravity="center" android:id="@+id/editText" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="@string/edit_text_hint" android:ems="10" android:layout_weight="1" android:inputType="textMultiLine"/>
+    <LinearLayout android:gravity="top|center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="2">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@+id/button_copy" android:layout_width="match_parent" android:layout_height="48dp" android:text="@android:string/copy" android:layout_weight="1"/>
+            <Button android:id="@+id/button_paste" android:layout_width="match_parent" android:layout_height="48dp" android:text="@android:string/paste" android:layout_weight="1"/>
+            <Button android:id="@+id/button_clean" android:layout_width="match_parent" android:layout_height="48dp" android:text="@string/clean" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@+id/button_roar" android:layout_width="match_parent" android:layout_height="48dp" android:text="@string/roar" android:layout_weight="1"/>
+            <Button android:id="@+id/button_word" android:layout_width="match_parent" android:layout_height="48dp" android:text="@string/word" android:layout_weight="1"/>
+            <Button android:id="@+id/button_back" android:layout_width="match_parent" android:layout_height="48dp" android:text="@string/back" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false">
+            <ScrollView android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:gravity="center" android:id="@+id/normal_note" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/note"/>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,26 @@
+<resources>
+
+    <string name="about">About</string>
+    <string name="about_info">This is just a FUN app,just for FUN!\n \n Designed and made by Dracloud</string>
+    <string name="app_name">Roar Translator</string>
+    <string name="back">Back</string>
+    <string name="clean">Clean</string>
+    <string name="copy">Copy</string>
+    <string name="copy_err">Copy failed!</string>
+    <string name="copy_suc">Copied Successfully!</string>
+    <string name="edit_text_hint">Type or paste words here!</string>
+    <string name="exit">Exit</string>
+    <string name="float_mod">Float MOD</string>
+    <string name="normal_mod">Normal MOD</string>
+    <string name="note">You can paste the words there and translate them,don`t forget to copy them!Enjoy~</string>
+    <string name="paste">Paste</string>
+    <string name="paste_err">Paste Failed!Text only!</string>
+    <string name="roar">Roar!</string>
+    <string name="select_mod">Please select MOD</string>
+    <string name="setting">Setting</string>
+    <string name="setting_err">Make sure there are 4 characters without repeat!</string>
+    <string name="setting_hint">Please put 4 characters here</string>
+    <string name="setting_suc">Saved!</string>
+    <string name="trans_err">Translate Error!Please check your text!</string>
+    <string name="word">Word</string>
+</resources>

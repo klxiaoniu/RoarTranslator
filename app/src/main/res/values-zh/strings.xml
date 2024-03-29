@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about">关于</string>
+    <string name="about_info">仅供娱乐，请勿用于重要信息的加密！\n \n 设计and程序：数码幻龙</string>
+    <string name="app_name">兽音译者</string>
+    <string name="back">返回</string>
+    <string name="clean">清空</string>
+    <string name="copy">复制</string>
+    <string name="copy_err">复制失败！</string>
+    <string name="copy_suc">复制成功！</string>
+    <string name="edit_text_hint">在这儿输入或粘贴文字</string>
+    <string name="exit">退出</string>
+    <string name="float_mod">悬浮模式</string>
+    <string name="normal_mod">正常模式</string>
+    <string name="note">将文字粘贴在这儿就可以翻译了，别忘了复制翻译结果！玩的开心~</string>
+    <string name="paste">粘贴</string>
+    <string name="paste_err">粘贴失败！只支持文本！</string>
+    <string name="roar">Roar!</string>
+    <string name="select_mod">请选择启动模式</string>
+    <string name="setting">设置</string>
+    <string name="setting_err">请确认有四个字符且不重复！</string>
+    <string name="setting_hint">请输入4个字符</string>
+    <string name="setting_suc">已储存！</string>
+    <string name="trans_err">翻译失败！请检查原始文字！</string>
+    <string name="word">还原</string>
+</resources>
